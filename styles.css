@@ -1,0 +1,142 @@
+
+body {
+    background-color: #fafafa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+ 
+
+
+
+
+
+
+.heading {
+  display: flex;
+  justify-content: space-between; /* Space out the elements */
+  align-items: center; /* Vertically center the items */
+  padding: 20px;
+  background-color: #1F2937; /* Background color */
+  color: #fafafa; /* Text color */
+}
+
+.heading h1 {
+  margin: 0; /* Remove default margin around the h1 */
+  font-size: 24px;
+}
+
+.heading a {
+  text-decoration: none;
+  margin: left 10px; /* Space between links */
+  font-size: 18px;
+  background-color: #1F293744; /* Background color */
+  color: #fafafa; 
+  justify-content: end;
+}
+
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: #fafafa; 
+    background-color: #1F2937; /* Background color */
+    font-size: 18px;
+}
+
+/* Style for the text container */
+.text-container {
+    max-width: 50%; /* This ensures the text takes up half the space */
+}
+
+.intro h2 {
+    margin: 0;
+}
+
+.intro img {
+    max-width: auto; /* This ensures the image doesn't stretch too much */
+    height: auto;
+    margin-left: 20px;
+}
+
+
+.services-section {
+  text-align: center;
+  padding: 40px;
+  background-color: #fafafa; /* Optional background */
+}
+
+.services-section h3 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.services-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap; /* Allows it to stack on smaller screens */
+}
+
+.service-card {
+  background-color: white;
+  border: 1px solid #1F2937;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  
+}
+
+.service-card img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.service-card h4 {
+  margin: 10px 0 10px;
+  font-size: 1.2em;
+}
+
+.service-card p {
+  font-size: 0.95em;
+  color: #555;
+}
+
+
+
+.quote {
+    background-color: #f2f2f2; /* light gray background */
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.quote h2 {
+    margin-bottom: 15px;
+    font-size: 1.8em;
+}
+ 
+.quote p {
+    font-size: 1.1em;
+    color: #1F2937;
+    margin: 8px 0;
+}
+
+.newsletter {
+  border: 1px solid #1F2937;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  width: auto;
+  background-color: #074091;
+  color: #fafafa;
+}
+
+.newsletter p {
+  color: #fafafa;
+}
